@@ -7,8 +7,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
    font-size: 100%;
-   width: 90%;
-   margin: 1em auto;
+    width: 90%;
+    margin: 1em auto;
 }
 h1, h2, h3, p, ul { padding: .5em 0; }
 
@@ -31,10 +31,6 @@ section {
 }
 
 aside {
-    & h2 { padding: 0;}
-    & h3 {color: maroon;}
-    & a:link {color: steelblue;}
-    & a:visited {color: steelblue}
     flex-basis: 35%;
     height: fit-content;
     padding: 1em 1.5em;
@@ -42,6 +38,11 @@ aside {
     border: 2px solid steelblue;
     border-radius: 25px;
 }
+
+aside h2 { padding: 0; }
+aside h3 { color: maroon; }
+aside a:link {color: steelblue;}
+aside a:visited {color: steelblue}
 
 header {
 border: 2px solid steelblue;
