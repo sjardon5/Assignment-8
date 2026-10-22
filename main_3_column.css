@@ -6,9 +6,9 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-   font-size: 100%;
-   width: 90%;
-   margin: 1em auto;
+    font-size: 100%;
+    width: 95%;
+    margin: 0.75em auto;
 }
 h1, h2, h3, p, ul { padding: .5em 0; }
 
@@ -23,23 +23,20 @@ ul {
 
 main{ display: flex;
 padding-bottom: .5em;
+padding-left: .5em;
 }
 
 section {
     flex-basis: 65%;
-    padding-left: 4em;
+    padding-left: 2.5em;
 }
 
 aside {
-    & h2 { padding: 0;}
-    & h3 {color: maroon;}
-    & a:link {color: steelblue;}
-    & a:visited {color: steelblue}
     flex-basis: 35%;
     height: fit-content;
     padding: 1em 1.5em;
     padding-left: 0.2em;
-    margin: 1em 0 1em 1.5em;
+    margin: 1em 0 1em 0.5em;
     border: 2px solid steelblue;
     border-radius: 25px;
 }
@@ -58,13 +55,13 @@ img{
     
 }
 }
-    a:visited{
-        color: maroon;
-    }
-    a:link{
-        color: maroon;
-    }
-    p{
+a:visited{
+    color: maroon;
+}
+a:link{
+    color: maroon;
+}
+p{
     color: black;
 }
 footer {
@@ -72,7 +69,7 @@ footer {
     background-color: steelblue;
     color: white;
 }
-    ul{ 
+ul{ 
     font-style: normal;
 }
 .box {
